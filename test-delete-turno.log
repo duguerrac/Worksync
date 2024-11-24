@@ -1,0 +1,24 @@
+Iniciando pruebas de eliminación de turnos...
+Ejecutando Caso 1: Eliminar un turno válido.
+Se envió la solicitud para eliminar el turno válido.
+Se encontró un alert: Algo ha salido mal
+El alert fue cerrado exitosamente.
+Caso 1 fallido: No se recibió el alert esperado.
+Ejecutando Caso 2: Intentar eliminar un turno inexistente.
+Se envió la solicitud para eliminar un turno inexistente.
+Se encontró un alert: No existe un turno con este id
+El alert fue cerrado exitosamente.
+Caso 2 fallido: No se recibió el alert esperado.
+Pruebas de eliminación de turnos finalizadas.
+Iniciando pruebas de eliminación de turnos...
+Ejecutando Caso 1: Eliminar un turno válido.
+Se envió la solicitud para eliminar el turno válido.
+Se encontró un alert: Turno eliminado exitosamente
+El alert fue cerrado exitosamente.
+Caso 1 pasado: Alert recibido indicando que el turno fue eliminado.
+Ejecutando Caso 2: Intentar eliminar un turno inexistente.
+Se envió la solicitud para eliminar un turno inexistente.
+Se encontró un alert: No existe un turno con este id
+El alert fue cerrado exitosamente.
+Caso 2 fallido: No se recibió el alert esperado.
+Pruebas de eliminación de turnos finalizadas.

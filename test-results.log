@@ -1,0 +1,313 @@
+Iniciando prueba de login...
+Página cargada correctamente.
+Formulario enviado con credenciales válidas.
+Prueba exitosa: Login correcto con credenciales válidas.
+Formulario enviado con credenciales inválidas.
+Prueba fallida: Mensaje de error no mostrado para credenciales inválidas.
+Prueba finalizada.
+Iniciando prueba de login...
+Página cargada correctamente.
+Formulario enviado con credenciales válidas.
+Prueba exitosa: Login correcto con credenciales válidas.
+Formulario enviado con credenciales inválidas.
+Prueba exitosa: Mensaje de error mostrado correctamente para credenciales inválidas.
+Prueba finalizada.
+Iniciando prueba de creación de turnos...
+Página de creación de turnos cargada correctamente.
+Error durante la prueba: unexpected alert open: {Alert text : No existe un usuario con este documento}
+  (Session info: chrome=131.0.6778.71)
+Prueba de creación de turnos finalizada.
+Iniciando prueba de creación de turnos...
+Página de creación de turnos cargada correctamente.
+Error durante la prueba: no such element: Unable to locate element: {"method":"css selector","selector":"[name='fecha']"}
+  (Session info: chrome=131.0.6778.71)
+Prueba de creación de turnos finalizada.
+Iniciando prueba de creación de turnos...
+Página de creación de turnos cargada correctamente.
+Formulario enviado con datos válidos.
+Error durante la prueba: Unexpected server response for getting an element. Expected array, but the response was: ''
+
+Prueba de creación de turnos finalizada.
+Iniciando prueba de creación de turnos...
+Página de creación de turnos cargada correctamente.
+Formulario enviado con datos válidos.
+No se encontró ningún alert: no such alert
+  (Session info: chrome=131.0.6778.71)
+Error durante la prueba: unexpected alert open: {Alert text : Turno creado exitosamente}
+  (Session info: chrome=131.0.6778.71)
+Prueba de creación de turnos finalizada.
+Iniciando prueba de creación de turnos...
+Página de creación de turnos cargada correctamente.
+Error durante la prueba: unexpected alert open: {Alert text : No existe un usuario con este documento}
+  (Session info: chrome=131.0.6778.71)
+Prueba de creación de turnos finalizada.
+Iniciando prueba de creación de turnos...
+Página de creación de turnos cargada correctamente.
+Formulario enviado con datos válidos.
+Se encontró un alert: Turno creado exitosamente
+El alert fue cerrado exitosamente.
+Error durante la prueba: unexpected alert open: {Alert text : Turno creado exitosamente}
+  (Session info: chrome=131.0.6778.71)
+Prueba de creación de turnos finalizada.
+Iniciando prueba de creación de turnos...
+Página de creación de turnos cargada correctamente.
+Formulario enviado con datos válidos.
+Se encontró un alert: Turno creado exitosamente
+El alert fue cerrado exitosamente.
+Error durante la prueba: unexpected alert open: {Alert text : Turno creado exitosamente}
+  (Session info: chrome=131.0.6778.71)
+Prueba de creación de turnos finalizada.
+Iniciando prueba de creación de turnos...
+Página de creación de turnos cargada correctamente.
+Formulario enviado con datos válidos.
+Se encontró un alert: Turno creado exitosamente
+El alert fue cerrado exitosamente.
+Error durante la prueba: unexpected alert open: {Alert text : Turno creado exitosamente}
+  (Session info: chrome=131.0.6778.71)
+Prueba de creación de turnos finalizada.
+Iniciando prueba de creación de turnos...
+Página de creación de turnos cargada correctamente.
+Error durante la prueba: unexpected alert open: {Alert text : No existe un usuario con este documento}
+  (Session info: chrome=131.0.6778.71)
+Prueba de creación de turnos finalizada.
+Iniciando prueba de creación de turnos...
+Página de creación de turnos cargada correctamente.
+Formulario enviado con datos válidos.
+Se encontró un alert: Turno creado exitosamente
+El alert fue cerrado exitosamente.
+No más alertas presentes: 
+Error durante la prueba: unexpected alert open: {Alert text : Turno creado exitosamente}
+  (Session info: chrome=131.0.6778.71)
+Prueba de creación de turnos finalizada.
+Iniciando prueba de creación de turnos...
+Página de creación de turnos cargada correctamente.
+Error durante la prueba: unexpected alert open: {Alert text : No existe un usuario con este documento}
+  (Session info: chrome=131.0.6778.71)
+Prueba de creación de turnos finalizada.
+Iniciando prueba de creación de turnos...
+Página de creación de turnos cargada correctamente.
+Formulario enviado con datos válidos.
+Se encontró un alert: Turno creado exitosamente
+El alert fue cerrado exitosamente.
+Advertencia: El alert reapareció.
+No más alertas presentes: 
+Error durante la prueba: unexpected alert open: {Alert text : Turno creado exitosamente}
+  (Session info: chrome=131.0.6778.71)
+Prueba de creación de turnos finalizada.
+Iniciando prueba de creación de turnos...
+Página de creación de turnos cargada correctamente.
+Formulario enviado con datos válidos.
+Se encontró un alert: Turno creado exitosamente
+El alert fue cerrado exitosamente.
+No más alertas presentes: 
+Alertas ignoradas temporalmente para continuar el flujo.
+Error durante la prueba: unexpected alert open: {Alert text : Turno creado exitosamente}
+  (Session info: chrome=131.0.6778.71)
+Prueba de creación de turnos finalizada.
+Iniciando prueba de creación de turnos...
+Página de creación de turnos cargada correctamente.
+Formulario enviado con datos válidos.
+Se encontró un alert: Turno creado exitosamente
+El alert fue cerrado exitosamente.
+Página de creación de turnos recargada correctamente para el segundo caso.
+Formulario enviado con usuario inexistente.
+Se encontró un alert: No existe un usuario con este documento
+El alert fue cerrado exitosamente.
+Prueba de creación de turnos finalizada.
+Iniciando prueba de modificación de turnos...
+Página de modificación de turnos cargada correctamente.
+Error durante la prueba: no such element: Unable to locate element: {"method":"css selector","selector":"#modificarTurnoButton"}
+  (Session info: chrome=131.0.6778.71)
+Prueba de modificación de turnos finalizada.
+Iniciando prueba de modificación de turnos...
+Página de modificación de turnos cargada correctamente.
+Formulario enviado con datos válidos.
+Se encontró un alert: Turno actualizado exitosamente
+El alert fue cerrado exitosamente.
+Error durante la prueba: unexpected alert open: {Alert text : Turno actualizado exitosamente}
+  (Session info: chrome=131.0.6778.71)
+Prueba de modificación de turnos finalizada.
+Iniciando prueba de flujo de modificación de turnos...
+Página de modificación de turnos cargada correctamente.
+Se envió la solicitud para buscar el turno.
+Se encontró un alert: Este turno no existe
+El alert fue cerrado exitosamente.
+Los campos del turno se llenaron correctamente tras la búsqueda.
+Formulario enviado para actualizar el turno.
+No se encontró ningún alert: 
+Error durante la prueba: unexpected alert open: {Alert text : Este turno no existe}
+  (Session info: chrome=131.0.6778.71)
+Prueba de flujo de modificación de turnos finalizada.
+Iniciando prueba de flujo de modificación de turnos...
+Página de modificación de turnos cargada correctamente.
+Se envió la solicitud para buscar el turno.
+No se encontró ningún alert: 
+Los campos del turno se llenaron correctamente tras la búsqueda.
+Formulario enviado para actualizar el turno.
+Se encontró un alert: Turno actualizado exitosamente
+El alert fue cerrado exitosamente.
+Error durante la prueba: unexpected alert open: {Alert text : Turno actualizado exitosamente}
+  (Session info: chrome=131.0.6778.71)
+Prueba de flujo de modificación de turnos finalizada.
+Iniciando prueba de flujo de modificación de turnos...
+Página de modificación de turnos cargada correctamente.
+Se envió la solicitud para buscar el turno.
+No se encontró ningún alert: 
+Los campos del turno se llenaron correctamente tras la búsqueda.
+Formulario enviado para actualizar el turno.
+Se encontró un alert: Turno actualizado exitosamente
+El alert fue cerrado exitosamente.
+Error durante la prueba: unexpected alert open: {Alert text : Turno actualizado exitosamente}
+  (Session info: chrome=131.0.6778.71)
+Prueba de flujo de modificación de turnos finalizada.
+Iniciando prueba de flujo de modificación de turnos...
+Página de modificación de turnos cargada correctamente.
+Se envió la solicitud para buscar el turno.
+Se encontró un alert: Este turno no existe
+El alert fue cerrado exitosamente.
+No más alertas presentes: 
+Los campos del turno se llenaron correctamente tras la búsqueda.
+Formulario enviado para actualizar el turno.
+No más alertas presentes: 
+Error durante la prueba: unexpected alert open: {Alert text : Este turno no existe}
+  (Session info: chrome=131.0.6778.71)
+Prueba de flujo de modificación de turnos finalizada.
+Iniciando prueba de flujo de modificación de turnos...
+Página de modificación de turnos cargada correctamente.
+Se envió la solicitud para buscar el turno.
+No más alertas presentes: 
+Los campos del turno se llenaron correctamente tras la búsqueda.
+Formulario enviado para actualizar el turno.
+Se encontró un alert: Turno actualizado exitosamente
+El alert fue cerrado exitosamente.
+No más alertas presentes: 
+Error durante la prueba: unexpected alert open: {Alert text : Turno actualizado exitosamente}
+  (Session info: chrome=131.0.6778.71)
+Prueba de flujo de modificación de turnos finalizada.
+Iniciando prueba de flujo de modificación de turnos...
+Página de modificación de turnos cargada correctamente.
+Se envió la solicitud para buscar el turno.
+No más alertas presentes: 
+Alertas ignoradas manualmente.
+Los campos del turno se llenaron correctamente tras la búsqueda.
+Formulario enviado para actualizar el turno.
+Se encontró un alert: Turno actualizado exitosamente
+El alert fue cerrado exitosamente.
+No más alertas presentes: 
+Alertas ignoradas manualmente.
+Error durante la prueba: unexpected alert open: {Alert text : Turno actualizado exitosamente}
+  (Session info: chrome=131.0.6778.71)
+Prueba de flujo de modificación de turnos finalizada.
+Iniciando prueba de flujo de modificación de turnos...
+Página de modificación de turnos cargada correctamente.
+Se envió la solicitud para buscar el turno.
+No más alertas presentes: 
+Alertas futuras ignoradas manualmente.
+Los campos del turno se llenaron correctamente tras la búsqueda.
+Formulario enviado para actualizar el turno.
+Se encontró un alert: Turno actualizado exitosamente
+El alert fue cerrado exitosamente.
+No más alertas presentes: 
+Alertas futuras ignoradas manualmente.
+Error durante la prueba: unexpected alert open: {Alert text : Turno actualizado exitosamente}
+  (Session info: chrome=131.0.6778.71)
+Prueba de flujo de modificación de turnos finalizada.
+Iniciando prueba de modificación de turnos...
+Página de modificación de turnos cargada correctamente.
+Se envió la solicitud para buscar el turno.
+Los campos del turno se llenaron correctamente tras la búsqueda.
+Formulario enviado para actualizar el turno.
+Se encontró un alert: Turno actualizado exitosamente
+El alert fue cerrado exitosamente.
+La página se redirigió correctamente a la vista de modificación.
+Prueba de modificación de turnos finalizada.
+Iniciando prueba de modificación de turnos...
+Página de modificación de turnos cargada correctamente.
+Caso 1: Modificar un turno válido.
+Se encontró un alert: Este turno no existe
+El alert fue cerrado exitosamente.
+No se encontró ningún alert: 
+Caso 2: Intentar buscar un turno inexistente.
+Error durante la prueba: unexpected alert open: {Alert text : Este turno no existe}
+  (Session info: chrome=131.0.6778.71)
+Prueba de modificación de turnos finalizada.
+Iniciando prueba de modificación de turnos...
+Página de modificación de turnos cargada correctamente.
+Caso 1: Modificar un turno válido.
+No se encontró ningún alert: 
+Se encontró un alert: Turno actualizado exitosamente
+El alert fue cerrado exitosamente.
+Caso 2: Intentar buscar un turno inexistente.
+Error durante la prueba: unexpected alert open: {Alert text : Turno actualizado exitosamente}
+  (Session info: chrome=131.0.6778.71)
+Prueba de modificación de turnos finalizada.
+Iniciando prueba de modificación de turnos...
+Página de modificación de turnos cargada correctamente.
+Se envió la solicitud para buscar el turno.
+Los campos del turno se llenaron correctamente tras la búsqueda.
+Formulario enviado para actualizar el turno.
+Se encontró un alert: Turno actualizado exitosamente
+El alert fue cerrado exitosamente.
+La página se redirigió correctamente a la vista de modificación.
+Prueba de modificación de turnos finalizada.
+Iniciando prueba de modificación de turnos...
+Página de modificación de turnos cargada correctamente.
+Caso 1: Modificar un turno válido.
+Se envió la solicitud para buscar el turno.
+Los campos del turno se llenaron correctamente tras la búsqueda.
+Formulario enviado para actualizar el turno.
+Se encontró un alert: Turno actualizado exitosamente
+El alert fue cerrado exitosamente.
+La página se redirigió correctamente a la vista de modificación.
+Caso 2: Intentar buscar un turno inexistente.
+Error durante la prueba: unexpected alert open: {Alert text : Turno actualizado exitosamente}
+  (Session info: chrome=131.0.6778.71)
+Prueba de modificación de turnos finalizada.
+Iniciando prueba de modificación de turnos...
+Página de modificación de turnos cargada correctamente.
+Caso 1: Modificar un turno válido.
+Se envió la solicitud para buscar el turno.
+Los campos del turno se llenaron correctamente tras la búsqueda.
+Formulario enviado para actualizar el turno.
+Se encontró un alert: Turno actualizado exitosamente
+El alert fue cerrado exitosamente.
+La página se redirigió correctamente a la vista de modificación.
+Caso 2: Intentar buscar un turno inexistente.
+Error durante la prueba: unexpected alert open: {Alert text : Turno actualizado exitosamente}
+  (Session info: chrome=131.0.6778.71)
+Prueba de modificación de turnos finalizada.
+Iniciando prueba de modificación de turnos...
+Página de modificación de turnos cargada correctamente.
+Se envió la solicitud para buscar el turno.
+Los campos del turno se llenaron correctamente tras la búsqueda.
+Formulario enviado para actualizar el turno.
+Se encontró un alert: Turno actualizado exitosamente
+El alert fue cerrado exitosamente.
+La página se redirigió correctamente a la vista de modificación.
+Prueba de modificación de turnos finalizada.
+Iniciando pruebas de modificación de turnos...
+Ejecutando Caso 1: Modificar un turno válido.
+Se envió la solicitud para buscar el turno válido.
+Los campos del turno se llenaron correctamente tras la búsqueda.
+Formulario enviado para actualizar el turno.
+Se encontró un alert: Turno actualizado exitosamente
+El alert fue cerrado exitosamente.
+Caso 1 pasado: La página se redirigió correctamente.
+Ejecutando Caso 2: Buscar un turno inexistente.
+Se envió la solicitud para buscar un turno inexistente.
+Se encontró un alert: Este turno no existe
+El alert fue cerrado exitosamente.
+Caso 2 pasado: Alert recibido indicando que el turno no existe.
+Ejecutando Caso 3: Intentar actualizar con datos inválidos.
+Se envió la solicitud para buscar el turno válido.
+Formulario enviado con datos inválidos.
+Se encontró un alert: No existe un usuario con este documento
+El alert fue cerrado exitosamente.
+Caso 3 fallido: No se recibió el alert esperado.
+Ejecutando Caso 4: Intentar actualizar con un usuario inexistente.
+Se envió la solicitud para buscar el turno válido.
+Formulario enviado con un usuario inexistente.
+Se encontró un alert: No existe un usuario con este documento
+El alert fue cerrado exitosamente.
+Caso 4 pasado: Alert recibido indicando que el usuario no existe.
+Pruebas de modificación de turnos finalizadas.
