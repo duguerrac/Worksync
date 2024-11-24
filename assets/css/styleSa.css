@@ -1,0 +1,301 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFD8A9;
+    height: 100%;
+}
+
+/* Encabezado */
+header {
+    background-color: #F1A661;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 16%;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+}
+
+.titulo h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.titulo img {
+    height: 60px;
+    margin-left: 20px;
+}
+.title {
+    position: relative; /* Establece la posición relativa para posicionar el título */
+    z-index: 9999; /* Coloca el título por encima de todos los demás elementos */
+    background-color: #FFD8A9; /* Cambia el color de fondo a negro */
+    color: black; /* Cambia el color del texto a blanco */
+    font-weight: bold; /* Hace que el texto esté en negrita */
+    text-align: center; /* Centra el texto horizontalmente */
+    padding: 10px; /* Añade un relleno de 20px alrededor del título */
+    z-index: inherit;
+}
+
+/* Lateral izquierdo */
+.lateral {
+    float: left;
+    width: 25%;
+    background-color: #EBB07A;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    display: flex;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 84%;
+    box-sizing: border-box;
+    z-index: 99;
+}
+
+.lateral img {
+    height: 250px;
+}
+
+.lateral h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+/* Inputs y botones */
+.busqueda,
+.busqueda2,
+.lista,
+.informes {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.inputFecha {
+    padding: 10px;
+    background-color: #D9D9D9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btnBuscar,
+.btnEnviar {
+    padding: 10px 20px;
+    background-color: #4169E1;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#mensaje {
+    text-align: left;
+    vertical-align: top;
+    font-size: 14px;
+    overflow-y: scroll;
+    resize: none;
+    display: flex;
+    padding: 120px;
+    margin-left: 500px;
+    margin-right: 750px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Subtítulos */
+.subtitulo {
+    color: black;
+    background-color: #D9D9D9;
+    margin-left: 500px;
+    margin-right: 750px;
+    margin-top: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Contenedores */
+.contenedor,
+.contenedor2 {
+    position: relative;
+    display: flex;
+    background-color: #fff;
+    margin-left: 500px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    padding: 120px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.contenedor3{
+    position: relative;
+    display: flex;
+    background-color: #fff;
+    margin-left: 500px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    padding: 120px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    overflow-x: auto; 
+    width: 300px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ccc; /* Set border width, style, and color */
+    padding: 5px; /* Add padding around cell content */
+    text-align: left; /* Align table content to the left */
+  }
+  
+  th {
+    background-color: #f2f2f2; /* Set background color for table headers */
+    font-weight: bold; /* Make table headers bold */
+  }
+/* Pie de página */
+footer {
+    display: block;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFD8A9;
+    color: #000;
+    z-index: -1;
+}
+
+/* Media Queries para hacer responsive */
+
+@media screen and (max-width: 768px) {
+    /* Ajustes para dispositivos con un ancho máximo de 768px */
+    .lateral {
+        width: 100%;
+        position: relative;
+        margin: 0;
+    }
+
+    .titulo {
+        justify-content: center;
+    }
+
+    .titulo h1 {
+        font-size: 30px;
+    }
+
+    .titulo img {
+        height: 40px;
+        margin-left: 10px;
+    }
+
+    /* Ajustar otros estilos según sea necesario */
+}
+
+@media screen and (max-width: 576px) {
+    /* Ajustes para dispositivos con un ancho máximo de 576px */
+    .titulo h1 {
+        font-size: 20px;
+    }
+
+    .titulo img {
+        height: 30px;
+        margin-left: 5px;
+    }
+
+    /* Ajustar otros estilos según sea necesario */
+}
+
+select {
+    padding: 8px;
+    font-size: 16px;
+}
+.implemento{
+    margin-left: 100px;
+}
+
+.btnAsignarr{
+    padding: 10px 20px;
+    background-color: #4169E1;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+    margin-top: 18px; /* Mueve el elemento hacia abajo */
+    margin-left: 100px; /* Mueve el elemento hacia la derecha */
+}
+
+.btnBuscar1{
+    padding: 10px 20px;
+    background-color: #4169E1;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+    margin-top: 18px; /* Mueve el elemento hacia abajo */
+    margin-left: 100px; /* Mueve el elemento hacia la derecha */
+}
+
+#mensaje1 {
+    width: 600px; /* Reduce el ancho del textarea */
+    height: 300px; /* Reduce la altura del textarea */
+    padding: 20px; /* Añade espacio interno */
+    box-sizing: border-box; /* Asegura que el padding se incluya en el tamaño total */
+    margin-left:600px;
+    margin-top: 30px;
+}
+
+.contenedor {
+    background-color: #fff;
+    margin-left: 490px;
+    margin-right: 80px; 
+    margin-bottom: 50px;
+    margin-top: 10px;
+    overflow-y: auto;
+    max-height: 200px;
+}
+
+table {
+    width: 100%; 
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center; 
+    border-bottom: 1px solid #D9D9D9;
+}
+
+th {
+    background-color: #F1A661;
+    color: #000000;
+}
+
+td {
+    background-color: #FFFFFF;
+    color: #000000;
+}

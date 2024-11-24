@@ -1,0 +1,108 @@
+body{
+    background-color: #E38B29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+form{
+    width: 500px;
+    border: 2px solid #F1A661;
+    padding: 5rem;
+    background-color: #F1A661;
+    border: none;
+    border-radius: 20px;
+
+}
+
+
+h1{
+    display: block;
+    border: none;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 50px;
+}
+
+.container{
+    text-align: center;
+}
+
+input{
+    display: block;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+
+
+label {
+    color: aliceblue;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 300;
+}
+
+
+
+button {
+
+background-color: rgb(255, 255, 255);
+padding: .5rem;
+border: none;
+color: rgb(41, 40, 40);
+width: 60%;
+border-radius: 10px;
+text-decoration: none;
+margin: 0 auto; /* Esto centra el botón horizontalmente dentro de su contenedor */
+display: block; /* Esto hace que el botón ocupe todo el ancho disponible */
+text-decoration: none;
+}
+
+button:hover{
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+.crear{
+    float: left;
+    margin-left: 10px;
+    padding: .5rem;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 2px solid #eee;
+    padding: 20px 0;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #fff; /* Agrega un color de fondo si es necesario */
+    z-index: 1000; /* Asegura que esté en la capa superior */
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+

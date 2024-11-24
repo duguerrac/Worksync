@@ -1,0 +1,377 @@
+body {
+    font-family: Arial, sans-serif; /* Establece la fuente del texto del cuerpo */
+    margin: 0; /* Elimina el margen exterior del cuerpo */
+    padding: 0; /* Elimina el relleno del cuerpo */
+    background-color: #FFD8A9; /* Color de fondo del cuerpo */
+}
+
+
+/* Encabezado */
+header {
+    background-color: #F1A661; /* Color de fondo del encabezado */
+    padding: 0px; /* Sin relleno */
+    display: flex; /* Activa el modelo de caja flexible para el contenedor */
+    justify-content: center; /* Alinea los elementos horizontalmente al centro */
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra alrededor del encabezado */
+    height: 16%;
+}
+
+
+
+/* título principal */
+.titulo {
+    display: flex; /* Activa el modelo de caja flexible para el contenedor */
+    align-items: center; /* Alinea verticalmente los elementos hijos al centro */
+}
+
+.titulo h1 {
+    color: #000000; /* Color del texto del título */
+    font-weight: bold; /* Texto en negrita */
+    font-size: 50px; /* Tamaño de la fuente del título */
+}
+
+.titulo img {
+    height: 60px; /* Establece la altura de la imagen */
+    margin-left: 20px; /* Margen izquierdo de 20px */
+}
+
+/* lateral izquierdo */
+.lateral {
+    float: left; /* Coloca el div al lado izquierdo */
+    width: 25%; /* Ocupa el 25% del ancho de la página */
+    background-color: #EBB07A; /* Color de fondo del div lateral */
+    text-align: center; /* Centra el contenido horizontalmente */
+    display: flex; /* Activamos el modelo de caja flexible */
+    flex-direction: column; /* Alinear elementos verticalmente */
+    justify-content: center; /* Alinear elementos verticalmente al centro */
+    align-items: center; /* Alinear elementos horizontalmente al centro */
+    position:relative; /* Posición relativa para posicionar elementos hijos */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra alrededor del div lateral */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 84%;
+}
+
+.lateral img {
+    height: 250px; /* Establece la altura de la imagen */
+}
+
+.lateral h1 {
+    color: #fff; /* Color del texto del título */
+    font-weight: bold; /* Texto en negrita */
+    font-size: 35px; /* Tamaño de la fuente del título */
+}
+
+
+/* input (s) y boton (es) combinados */
+
+.busqueda {
+    display: flex; /* Activa el modelo de caja flexible para el contenedor */
+    justify-content: center; /* Alinea los elementos flexibles en el centro horizontalmente */
+    margin-top: 40px; /* Margen superior de 40px */
+}
+
+
+/* input (s) */
+
+.inputFecha {
+    padding: 10px; /* Relleno interno de 10px en todos los lados */
+    background-color: #D9D9D9; /* Color de fondo del input */
+    border: 1px solid #ccc; /* Borde de 1px sólido de color gris claro */
+    border-radius: 4px; /* Radio de borde de 4px para dar esquinas redondeadas */
+    font-size: 20px; /* Tamaño de fuente de 20px */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra del input */
+}
+
+
+/* boton(es) */
+.btnBuscar {
+    padding: 10px 20px; /* Relleno interno de 10px arriba/abajo y 20px izquierda/derecha */
+    background-color: #4169E1; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Radio de borde de 4px para dar esquinas redondeadas */
+    font-size: 16px; /* Tamaño de fuente de 16px */
+    cursor: pointer; /* Cambia el cursor a una mano cuando se pasa sobre el botón */
+    margin-left: 50px; /* Margen izquierdo de 50px */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra del botón */
+}
+
+.btnEnviar {
+    padding: 10px 20px; /* Relleno interno de 10px arriba/abajo y 20px izquierda/derecha */
+    background-color: #49C77B; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Radio de borde de 4px para dar esquinas redondeadas */
+    font-size: 16px; /* Tamaño de fuente de 16px */
+    cursor: pointer; /* Cambia el cursor a una mano cuando se pasa sobre el botón */
+    margin-left: 50px; /* Margen izquierdo de 50px */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra del botón */
+}
+
+.btnEliminar {
+    padding: 10px 20px; /* Relleno interno de 10px arriba/abajo y 20px izquierda/derecha */
+    background-color: #FF0000; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Radio de borde de 4px para dar esquinas redondeadas */
+    font-size: 16px; /* Tamaño de fuente de 16px */
+    cursor: pointer; /* Cambia el cursor a una mano cuando se pasa sobre el botón */
+    margin-left: 50px; /* Margen izquierdo de 50px */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra del botón */
+}
+
+
+/* subtitulo (s) */
+.subtitulo {
+    color: black; /* Color del texto */
+    margin-left: 450px; /* Margen izquierdo de 500px */
+    margin-right: 750px; /* Margen derecho de 750px */
+    margin-top: 40px; /* Margen superior de 40px */
+    white-space: nowrap;
+}
+
+.subtitulo h2{
+    display: inline-block;
+    margin-right: 310px;
+    background-color: #D9D9D9; /* Fondo gris */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    vertical-align: middle;
+  }
+  
+  .box {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    vertical-align: middle;
+  }
+  
+  .calendar {
+    margin-right: 130px; /* Ajusta este valor para aumentar o disminuir el espacio */
+    padding: 150px;
+    text-align: left;
+  }
+  
+  textarea.message {
+    resize: none;
+    width: 300px; /* Ajusta este valor para cambiar el ancho del textarea */
+    height: 300px; /* Ajusta este valor para cambiar la altura del textarea */
+    margin-right: 150px;
+
+  }
+/* Pie de página */
+footer {
+    display: block; /* Establece el tipo de visualización como bloque */
+    text-align: center; /* Alinea el contenido horizontalmente en el centro */
+    position: fixed; /* Posiciona el footer de forma fija en la ventana del navegador */
+    bottom: 0; /* Coloca el footer en la parte inferior de su contenedor */
+    width: 100%; /* Establece el ancho del footer al 100% del ancho de su contenedor */
+    background-color: #FFD8A9; /* Color de fondo del footer */
+    color: #000; /* Color de texto del footer */
+    z-index: -1; /* Establece la posición de apilamiento detrás de otros elementos en la página */
+}
+
+
+.formulario {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"]   {
+    width: 155%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #D9D9D9;
+    border-radius: 3px;
+}
+
+select{
+    width: 155%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #D9D9D9;
+    border-radius: 3px;
+}
+
+
+.botonera-3bt {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 50px auto;
+    padding: 90px;
+    width: 20%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.botonera-at {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 50px auto;
+    padding: 45px;
+    width: 20%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.botonera-4bt {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0px 50px 200px;
+    padding: 70px 90px;
+    width: 20%;
+}
+
+.botonera{
+    display: flex;
+    justify-content: center;
+    padding: 70px 90px;
+    width: 20%;
+
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.BtAzul {
+    background-color: #4169E1;
+    color: white;
+    font-size: 20;
+}
+
+.BtGris {
+    background-color: #808080;
+    color: white;
+    font-size: 20;
+}
+
+.BtRojo {
+    background-color: #B22222;
+    color: white;
+    font-size: 20;
+}
+
+.BtVerde {
+    background-color: #49C77B;
+    color: white;
+    font-size: 20;
+}
+
+.BtCian {
+    background-color: #1E90FF;
+    color: white;
+    font-size: 20;
+}
+
+main{
+    display: flex;
+}
+
+svg{
+    height: 60px;
+    width: auto;
+    margin-left: 20px; 
+}
+
+.busqueda {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 500px;
+    margin-right: 400px;
+}
+
+#mensaje {
+    text-align: left;
+    vertical-align: top;
+    font-size: 14px;
+    overflow-y: scroll;
+    /* Añadir barra de desplazamiento vertical si es necesario */
+    resize: none;
+    display: flex;
+    padding: 120px;
+    margin-left: 500px;
+    /* Margen izquierdo de 500px */
+    margin-right: 750px;
+    /* Margen derecho de 750px */
+    margin-top: 40px;
+    /* Margen superior de 40px */
+    margin-bottom: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.subtitulo {
+    color: black;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+form{
+    height: auto;
+}
+
+button:hover{
+    background-color: #F1A661;
+}
+
+
+.contenedor {
+    background-color: #fff;
+    margin-left: 490px;
+    margin-right: 80px; 
+    margin-bottom: 50px;
+    margin-top: -20px;
+    overflow-y: auto;
+    max-height: 200px;
+}
+
+table {
+    width: 100%; 
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center; 
+    border-bottom: 1px solid #D9D9D9;
+}
+
+th {
+    background-color: #F1A661;
+    color: #000000;
+}
+
+td {
+    background-color: #FFFFFF;
+    color: #000000;
+}

@@ -1,0 +1,208 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif; /* Establece la fuente del texto del cuerpo */
+    margin: 0; /* Elimina el margen exterior del cuerpo */
+    padding: 0; /* Elimina el relleno del cuerpo */
+    background-color: #FFD8A9; /* Color de fondo del cuerpo */
+}
+
+
+/* Encabezado */
+header {
+    background-color: #F1A661; /* Color de fondo del encabezado */
+    padding: 0px; /* Sin relleno */
+    display: flex; /* Activa el modelo de caja flexible para el contenedor */
+    justify-content: center; /* Alinea los elementos horizontalmente al centro */
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra alrededor del encabezado */
+    height: 16%;
+}
+
+
+
+/* título principal */
+.titulo {
+    display: flex; /* Activa el modelo de caja flexible para el contenedor */
+    align-items: center; /* Alinea verticalmente los elementos hijos al centro */
+}
+.titulo h1 {
+    color: #fff; /* Color del texto del título */
+    font-weight: bold; /* Texto en negrita */
+    font-size: 50px; /* Tamaño de la fuente del título */
+}
+.titulo img {
+    height: 60px; /* Establece la altura de la imagen */
+    margin-left: 20px; /* Margen izquierdo de 20px */
+}
+
+.title {
+    position: relative; /* Establece la posición relativa para posicionar el título */
+    z-index: 9999; /* Coloca el título por encima de todos los demás elementos */
+    background-color: #FFD8A9; /* Cambia el color de fondo a negro */
+    color: black; /* Cambia el color del texto a blanco */
+    font-weight: bold; /* Hace que el texto esté en negrita */
+    text-align: center; /* Centra el texto horizontalmente */
+    padding: 10px; /* Añade un relleno de 20px alrededor del título */
+    z-index: inherit;
+}
+
+/* lateral izquierdo */
+.lateral {
+    float: left; /* Coloca el div al lado izquierdo */
+    width: 25%; /* Ocupa el 25% del ancho de la página */
+    background-color: #EBB07A; /* Color de fondo del div lateral */
+    text-align: center; /* Centra el contenido horizontalmente */
+    display: flex; /* Activamos el modelo de caja flexible */
+    flex-direction: column; /* Alinear elementos verticalmente */
+    justify-content: center; /* Alinear elementos verticalmente al centro */
+    align-items: center; /* Alinear elementos horizontalmente al centro */
+    position:relative; /* Posición relativa para posicionar elementos hijos */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra alrededor del div lateral */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 84%;
+    z-index: 99;
+}
+
+.lateral img {
+    height: 250px; /* Establece la altura de la imagen */
+}
+
+.lateral h1 {
+    color: #fff; /* Color del texto del título */
+    font-weight: bold; /* Texto en negrita */
+    font-size: 35px; /* Tamaño de la fuente del título */
+}
+
+
+/* input (s) y boton (es) combinados */
+
+.busqueda {
+    display: flex; /* Activa el modelo de caja flexible para el contenedor */
+    justify-content: center; /* Alinea los elementos flexibles en el centro horizontalmente */
+    margin-top: 15px; /* Margen superior de 40px */
+}
+
+
+/* input (s) */
+
+.inputFecha {
+    padding: 10px; /* Relleno interno de 10px en todos los lados */
+    background-color: #D9D9D9; /* Color de fondo del input */
+    border: 1px solid #ccc; /* Borde de 1px sólido de color gris claro */
+    border-radius: 4px; /* Radio de borde de 4px para dar esquinas redondeadas */
+    font-size: 20px; /* Tamaño de fuente de 20px */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra del input */
+}
+
+
+/* boton(es) */
+.btnBuscar {
+    padding: 10px 20px; /* Relleno interno de 10px arriba/abajo y 20px izquierda/derecha */
+    background-color: #4169E1; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Radio de borde de 4px para dar esquinas redondeadas */
+    font-size: 16px; /* Tamaño de fuente de 16px */
+    cursor: pointer; /* Cambia el cursor a una mano cuando se pasa sobre el botón */
+    margin-left: 50px; /* Margen izquierdo de 50px */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra del botón */
+}
+
+.btnEnviar {
+    padding: 10px 20px; /* Relleno interno de 10px arriba/abajo y 20px izquierda/derecha */
+    background-color: #49C77B; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Radio de borde de 4px para dar esquinas redondeadas */
+    font-size: 16px; /* Tamaño de fuente de 16px */
+    cursor: pointer; /* Cambia el cursor a una mano cuando se pasa sobre el botón */
+    margin-left: 50px; /* Margen izquierdo de 50px */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra del botón */
+}
+
+.btnEliminar {
+    padding: 10px 20px; /* Relleno interno de 10px arriba/abajo y 20px izquierda/derecha */
+    background-color: #FF0000; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Radio de borde de 4px para dar esquinas redondeadas */
+    font-size: 16px; /* Tamaño de fuente de 16px */
+    cursor: pointer; /* Cambia el cursor a una mano cuando se pasa sobre el botón */
+    margin-left: 50px; /* Margen izquierdo de 50px */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra del botón */
+}
+
+.btnActualizar {
+    padding: 10px 20px; /* Relleno interno de 10px arriba/abajo y 20px izquierda/derecha */
+    background-color: #1E90FF; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Radio de borde de 4px para dar esquinas redondeadas */
+    font-size: 16px; /* Tamaño de fuente de 16px */
+    cursor: pointer; /* Cambia el cursor a una mano cuando se pasa sobre el botón */
+    margin-left: 50px; /* Margen izquierdo de 50px */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra del botón */
+}
+
+
+
+
+/* subtitulo (s) */
+.subtitulo {
+    color: black; /* Color del texto */
+    margin-left: 450px; /* Margen izquierdo de 500px */
+    margin-right: 750px; /* Margen derecho de 750px */
+    margin-top: 40px; /* Margen superior de 40px */
+    white-space: nowrap;
+}
+
+.subtitulo h2{
+    display: inline-block;
+    margin-right: 310px;
+    background-color: #D9D9D9; /* Fondo gris */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    vertical-align: middle;
+  }
+  
+  .box {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    vertical-align: middle;
+    margin-left: 0px;
+  }
+  
+  .calendar {
+    margin-right: 200px; /* Ajusta este valor para aumentar o disminuir el espacio */
+    padding: 100px;
+    text-align: left;
+  }
+  
+  textarea.message {
+    resize: none;
+    width: 200px; /* Ajusta este valor para cambiar el ancho del textarea */
+    height: 200px; /* Ajusta este valor para cambiar la altura del textarea */
+    margin-right: 400px;
+
+  }
+/* Pie de página */
+footer {
+    display: block; /* Establece el tipo de visualización como bloque */
+    text-align: center; /* Alinea el contenido horizontalmente en el centro */
+    position: fixed; /* Posiciona el footer de forma fija en la ventana del navegador */
+    bottom: 0; /* Coloca el footer en la parte inferior de su contenedor */
+    width: 100%; /* Establece el ancho del footer al 100% del ancho de su contenedor */
+    background-color: #FFD8A9; /* Color de fondo del footer */
+    color: #000; /* Color de texto del footer */
+    z-index: -1; 
+}
+
